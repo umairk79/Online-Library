@@ -1,0 +1,91 @@
+<?php
+		session_start();
+		$link = mysqli_connect("localhost", "root", "","wt");
+ 
+		if($link === false){
+			die("ERROR: Could not connect. " . mysqli_connect_error());
+		}
+	$id=$_GET['isbn'];
+	$q="SELECT * FROM book_details where ISBN='".$id."'" ;
+	$result=mysqli_query($link, $q);
+	$result=mysqli_fetch_array($result);
+?>
+
+
+
+<html>
+<head>
+	<title>Online Library</title>
+	<link rel="stylesheet" type="text/css" href="booklayout.css">  
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="jquery.js" type="text/javascript"></script>  
+	
+</head>
+<body>
+	<div id="container"> 
+		<div id="topbar">
+			<div class="logo">
+				<img class="logoimg" src="logo.png" height="100px" width="120px">
+			</div>
+			<div id="head"> Online Library
+			</div>
+			<div id="search">
+				<img id="searchlogo" src="search.png" height="40px" width="40px">
+				<input type="text" class="searchbar" placeholder="Search...">
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="bookimg">
+			<img src="<?php echo $result['photo']?>"/>
+		</div>
+		<div id="det">
+			<h2> Game Of Thrones</h2>
+			<h3> G.R.R. Martin</h3>
+			<p> Rating: 4.44/5</p>
+			<p> Genre: Fantasy</p>
+			<p> Des: Summers span decades. Winter can last a lifetime. And the struggle for the Iron Throne has begun.
+				As Warden of the north, Lord Eddard Stark counts it a curse when King Robert bestows on him the office of the Hand. His honour weighs him down at court where a true man does what he will, not what he must … and a dead enemy is a thing of beauty.
+			</p>
+		</div>
+		<div id="rev">
+		<h3>REVIEWS:</h3>
+			<p>
+			J.G. Keely rated it did not like it  ·  review of another edition
+			Shelves: fantasy, abandoned, reviewed
+			There are plenty of fantasy authors who claim to be doing something different with the genre. Ironically, they often write the most predictable books of all, as evidenced by Goodkind and Paolini. Though I'm not sure why they protest so much--predictability is hardly a death sentence in genre fantasy.
+
+			The archetypal story of a hero, a villain, a profound love, and a world to be saved never seems to get old--it's a great story when it's told well. At the best, it's exciting, exotic, and builds to a ...more
+			flag1298 likes · Like  · 1681 comments · see review
+			MJ Nicholls
+			Aug 13, 2016MJ Nicholls marked it as getting-even
+			Reader Logic:
+
+			I HATE this book.
+
+			I HATE it so much I had to get a new hardback copy to read so I could underline all the parts I HATE about it so much and post them on Goodreads.
+
+			I HATE it with such a passion I also bought copies for all my friends and family, also in new hardback editions, so they could HATE it along with me.
+
+			When the TV series came on I was so fuming with rage I watched the entire season twice and bought six copies of the DVD, because I could not believe how much I could HATE somet ...more
+			flag762 likes · Like  · 110 comments · see review
+
+			Shannon (Giraffe Days)
+			May 25, 2008Shannon (Giraffe Days) rated it did not like it
+			
+			Shelves: fantasy, 2008, not-worth-it
+			I really feel the necessity of a bit of personal backstory here, before I start the review. Back in 1996 when this book first came out, and I was about 14 or 16 years old, I saw the hardcover on a sale table for about $5 and couldn't resist a bargain (still can't, though I'm more cautious these days). So I started reading this book with the vague idea that it was a flop, and that may not have helped, but I got through 100 pages of it before feeling so crapped off with it that I shoved it in my c ...more
+			flag574 likes · Like  · 251 comments · see review
+			Kogiopsis
+			Jan 03, 2014Kogiopsis rated it did not like it
+			Shelves: blech-ugh-blech, reviewed, not-for-the-sensitive, incoherent-anger, what-the-fuck-was-this-shit, needless-fucking-drama, pacing-pacing-pacing, needed-more-editor, inconsistent-characterization
+			EDIT: 14 Dec. 2012. I no longer get notifications for the comments. Feel free to duke it out with each other; just don't expect me to respond.
+
+			WARNING: If you enjoyed this book, even a little bit, you may not want to read this review. It will probably make you angry. Heaven knows that the book made me furious, and I intend to turn every bit of that wrath back on it.
+			Instead, I suggest you read karen's review, Brigid's review, Joyzi's review, or any other of the gushing four and five-star reviews.
+			</p>
+		</div>
+	</div>
+</body>
+</html>

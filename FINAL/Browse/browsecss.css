@@ -1,0 +1,223 @@
+
+
+.container-fluid{
+	
+	padding:0px;
+	
+}
+.active{
+		color:#fff!important;
+	background-color:#AC7365!important;
+}
+.navbar{
+	margin-top:0px;
+	background-color:#CCBF95;
+	padding:0;
+	border:none;
+	color:#330D0E!important;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color:#AC7365;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color:#AC7365;
+}
+#searchdiv{
+	margin-top:8px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding:0px;
+	width:300px;
+
+}
+
+#search{
+
+	width:130%;
+}
+#lw{
+	margin-right:-35px;
+	position:absolute;
+	background-color:#FDF3E6;
+}
+#signupb{
+	background-color:#000000;
+	border:none;
+}
+#signupb:hover{
+	border:none;
+}
+#welcome{
+	float:right;
+	font-size:150%;
+	padding:0;
+	margin:0;
+}
+button.ui-datepicker-current { display: none; }
+.modal-content{
+	background-color:#FDF3E6;
+}
+#txtHint{
+	padding:10px;
+	color:red;
+}
+.valid{
+	color:red;
+}
+#address{
+	height:100px;
+}
+
+#content{
+	margin:50px 0px 0px 200px;
+}
+
+#result {
+	cursor:pointer;
+    background-color: #fff;
+	margin-top:10px;
+    left: 0px;
+    list-style-type: none;
+    margin-bottom:2px;
+    width: 130%;
+    position: absolute;
+    top: 32px;
+    z-index: 100;
+    padding-left: 10px;
+
+}
+
+.searchbar:hover{
+	color:#fff!important;
+	background-color:#AC7365!important;
+}
+.searchbar{
+	
+	padding-left:5px;
+	display:block;
+
+	border:1px solid #808080;
+	width:100%;
+	height:40px;
+	
+}
+
+
+#searchval{
+margin:50px auto 0 auto;
+width:60%;
+}
+
+#fdropdown{
+	margin-left:82%;
+	
+}
+#fdropdown-menu{
+	padding-left:10px;
+	width:50px;
+}
+#content
+{
+	word-wrap: break-word;
+}
+#issueb{
+	margin:30px 0 auto 200px;
+}
+.headers{
+	width:80%;
+}
+hr{
+	
+	margin: 10px 305px 10px auto;
+}
+
+.card{
+	margin:0px auto 0 auto;
+	width:80%;
+	height:100px;
+	text-align:center;
+}
+.popover{
+	
+}
+.book{
+	position:relative;
+}
+.book .popup{
+	display:none;
+	position:absolute;
+	z-index:999;
+}
+.star{
+	width:10px;
+	height:10px;
+	float:left;
+	
+}
+hr{
+	width:100%;
+}
+
+fieldset {
+  overflow: hidden;
+}
+#radio1{
+	
+	margin:5px auto 5px auto;
+}
+ .stext{
+	float:left;
+	margin-right:5px;
+}
+.some-class {
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	clear: none;
+}
+
+label {
+  float: left;
+  clear: none;
+  display: block;
+  margin-left:8px;
+  padding:0;
+}
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 5px 0 0 2px;
+}
+
+
+.popover{
+    width: 100%;
+	
+}
+.img{
+	width: 80%;
+	height:100px;
+	margin-left:20px;
+}
+.more{
+ 
+    color:navy;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
+.col-md-7{
+text-align:left;
+padding-left:0px;
+}
+.clickable{
+	cursor:pointer;
+}

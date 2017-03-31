@@ -1,0 +1,144 @@
+body{
+	background-image: url("http://www.freepptbackgrounds.net/wp-content/uploads/2013/11/My-Journal-PPT-Backgrounds-800x600.jpg");
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+	background-size:cover;
+	
+}
+.carousel{
+	width:70%;
+	margin:auto;
+
+}
+#owl-demo{
+	margin-top:30px;
+	
+}
+.owl-carousel{
+	margin:auto;
+}
+.owl-demo .item{
+margin-top:10px;
+
+  height:280px;
+  width:190px;
+  margin-left:45px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owlimg{
+
+	max-height:100%;
+	max-width:100%;
+	min-height:100%;
+	min-width:100%;
+}
+.customNavigation, .modal-title{
+  text-align: center;
+}
+
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.topbar{
+	height:150px;
+	padding:10px;
+	margin-bottom:0px;
+	background-color:#FDF3E6;
+	opacity: 0.8;
+	color:#330D0E!important;
+}
+
+.containk{
+	margin-left:140px;
+	margin-top:30px;
+	font-size:30px;
+	position:relative;
+}
+#usericon, .glyphicon-user{
+	color:white!important;
+
+	font-size: 1.4em;
+
+}
+#userdiv{
+	height:50px;
+}
+
+#lsub{
+	margin-left:8px;
+}
+.loginw{
+	width:90%;
+	margin:auto;
+}
+.active{
+		color:#fff!important;
+	background-color:#AC7365!important;
+}
+.navbar{
+	margin-top:0px;
+	background-color:#CCBF95;
+	padding:0;
+	border:none;
+	color:#330D0E!important;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color:#AC7365;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color:#AC7365;
+}
+#searchdiv{
+	margin-top:8px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding:0px;
+	width:300px;
+
+}
+
+#search{
+
+	width:300px;
+}
+
+#lw{
+	margin-right:-40px;
+	position:absolute;
+}
+#signupb{
+	background-color:#000000;
+	border:none;
+}
+#signupb:hover{
+	border:none;
+}
+#welcome{
+	float:right;
+	font-size:150%;
+	padding:0;
+	margin:0;
+}
+.prev, .next, .play, .stop{
+	background-color:#FDF3E6;
+}
+.modal-content{
+	background-color:#FDF3E6;
+}

@@ -1,0 +1,164 @@
+#content{
+	width:80%;
+	margin:100px auto;
+	padding:0;
+	border:1px solid black;
+	box-shadow:0px -1px 3px rgba(0,0,0,0.1),
+				0px 2px 6px rgba(0,0,0,0.5);
+	border-radius:6px;
+	overflow:hidden;
+	z-index:100;
+	background-color:white;
+}
+
+.container-fluid{
+	word-wrap: break-word;
+	padding:0px;
+	margin:0px;
+}
+.active{
+	color:#fff!important;
+	background-color:#AC7365!important;
+}
+.navbar{
+	margin-top:0px;
+	background-color:#CCBF95;
+	padding:0;
+	border:none;
+	color:#330D0E!important;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color:#AC7365;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color:#AC7365;
+}
+#searchdiv{
+	margin-top:8px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding:0px;
+	width:300px;
+
+}
+
+#search{
+
+	width:130%;
+}
+#result {
+	
+    background-color: #fff;
+	margin-top:10px;
+    left: 0px;
+    list-style-type: none;
+    margin-bottom:2px;
+    min-width: 130%;
+    position: absolute;
+    top: 32px;
+    z-index: 100;
+    padding-left: 10px;
+	cursor:pointer;
+}
+
+#lw{
+	margin-right:-40px;
+
+}
+#lhs{
+	margin-top:50px;
+	float:left;
+	width: 30%;
+	padding:50px;
+	height: 370px;
+}
+#dpdiv{
+
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	height:200px;
+}
+#dp{
+	box-shadow:0px -1px 3px rgba(0,0,0,0.1),
+				0px 2px 6px rgba(0,0,0,0.5);
+	padding:5px;
+	width:100%;
+	height:100%;
+}
+#imgform{
+	margin-top:20px;
+	width:40%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#det{
+	width:60%;
+	margin-top:50px;
+	float:left;
+}
+#editbtn{
+	float:right;
+	display:block;
+	margin-top:-4%;
+}
+.disp{
+	width:50%;
+	margin-bottom:10px;
+	display:none;
+}
+#subm{
+	margin-top:20px;
+	display:none;
+}
+.head,.modal-title{
+	text-align:center;
+}
+#sucmsg{
+	display:none;
+	text-align:center;
+}
+#changep{
+	float:right;
+	display:block;
+	margin-top:-4%;
+}
+#erroroldpwd, #error{
+	color:red;
+}
+#modalcp{
+	margin-top:15%;
+	display:block;
+}
+.card{
+	background-color:#F1F1F1;
+	width:60%;
+	border-radius:8px;
+	border:1px solid grey;
+	margin-left:20%;
+	padding:10px;
+	font-size:1.5em;
+	margin-bottom:20px;
+}
+.more{
+ 
+    color:navy;
+    font-size:13px;
+    padding:3px;
+    cursor:pointer;
+}
+.clear{
+	clear:both;
+}
+#title{
+	display:bloack;
+	text-align:center;
+	font-weight:bold;
+}

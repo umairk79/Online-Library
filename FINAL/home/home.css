@@ -1,0 +1,185 @@
+body{
+	background-color:#FDF3E6;
+}
+.carousel{
+	width:70%;
+	margin:auto;
+
+}
+.content{
+	margin-bottom:300px;
+}
+
+.customNavigation, .modal-title{
+  text-align: center;
+}
+
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.topbar{
+	height:150px;
+	padding:10px;
+	margin-bottom:0px;
+	background-color:#FDF3E6;
+	opacity: 0.8;
+	color:#330D0E!important;
+}
+.display-1{
+	font-size:1.35em;
+}
+.containk{
+	margin-left:140px;
+	margin-top:30px;
+	font-size:30px;
+	position:relative;
+}
+
+#lsub{
+	margin-left:8px;
+}
+.loginw{
+	width:90%;
+	margin:auto;
+}
+.active{
+		color:#fff!important;
+	background-color:#AC7365!important;
+}
+
+.navbar{
+	border:1px solid #CCBF95;
+	
+	margin-top:0px;
+	background-color:#CCBF95;
+	padding:0;
+
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+
+    background-color:#AC7365;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+
+    background-color:#AC7365;
+}
+#searchdiv{
+	margin-top:8px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding:0px;
+	width:300px;
+
+}
+.black{
+	color:black;
+}
+
+#search{
+
+	width:130%;
+}
+
+#sbut:hover{
+
+	cursor:pointer;
+}
+
+#lw{
+	margin-right:-35px;
+	position:absolute;
+	background-color:#FDF3E6;
+}
+
+#welcome{
+	float:right;
+	font-size:150%;
+	padding:0;
+	margin:0;
+}
+
+.modal-content{
+	background-color:#FDF3E6;
+}
+#txtHint{
+	padding:10px;
+	color:red;
+}
+.valid{
+	color:red;
+}
+#address{
+	height:100px;
+}
+#popcontent{
+
+	background-color:white;
+
+}
+.star{
+	height:10px;
+	float:left;
+}
+.owl-demo{
+	
+	
+	width:90%;
+}
+.owl-carousel{
+	margin:auto;
+}
+.owl-container{
+	
+	margin:50px auto auto auto;
+	height:420px;
+	width:60%;
+}
+.owl-title{
+	margin-left:100px;
+	text-transform:uppercase;
+}
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+	font-size:50px;
+}
+.prev{
+	background-color:none;
+	float:left;
+	margin:-200px 0 0 -30px;
+}
+.next{
+	float:right;
+	margin:-200px -30px 0 0 ;
+}
+.owl-demo .item{
+margin-top:10px;
+margin-bottom:10px!important;
+  height:280px;
+  width:190px;
+  margin-left:45px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owlimg{
+	padding:5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	max-height:100%;
+	max-width:100%;
+	min-height:100%;
+	min-width:100%;
+}
+.clickable{
+	cursor:pointer;
+}
